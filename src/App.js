@@ -8,6 +8,7 @@ import { withStyles } from 'material-ui/styles';
 import { getExchangesPositions } from './api/exchange';
 import Button from "material-ui/Button";
 import Typography from 'material-ui/Typography';
+import { transformExchangeData } from "./utils/dataConverters";
 
 const styles = () => ({
   progress: {
@@ -23,13 +24,11 @@ const styles = () => ({
   }
 });
 
-type State = {
-  loading: boolean
-};
-
 class App extends Component {
 
-  state: State = { loading: false, showError: false }
+  static displayName = "App";
+
+  state = { loading: false, showError: false, data: null }
 
   componentDidMount () {
     this.fetchData();
@@ -40,10 +39,11 @@ class App extends Component {
 
     try {
       const data = await getExchangesPositions();
-      console.log(data);
+      this.setState({ data: transformExchangeData(data) })
 
     } catch (e) {
       this.setState({ showError: true });
+      throw e;
     } finally {
       this.setState({ loading: false });
     }

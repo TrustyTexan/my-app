@@ -12,7 +12,7 @@ export const getExchangesPositions = () => {
                         // Log error to sentry
                         return reject(err);
                     }
-                    return resolve(res.body || res.text);
+                    resolve(res.body || res.text);
                 });
         }, Math.random() * 3000)
     });
