@@ -1,14 +1,17 @@
 // @flow
 
-import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Nav from './components/Nav';
-import { CircularProgress } from 'material-ui/Progress';
-import { withStyles } from 'material-ui/styles';
-import { getExchangesPositions } from './api/exchange';
+import React, { Component, Fragment } from "react";
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+import Nav from "./components/Nav";
+import { CircularProgress } from "material-ui/Progress";
+import { withStyles } from "material-ui/styles";
+import { getExchangesPositions } from "./api/exchange";
 import Button from "material-ui/Button";
-import Typography from 'material-ui/Typography';
-import { transformExchangeData } from "./utils/dataConverters";
+import Typography from "material-ui/Typography";
+import { transformExchangeData, convertToCurrentData, convertToHistoric } from "./utils/dataConverters";
+import CurrentView from "./components/CurrentView";
+import HistoricView from "./components/HistoricView";
+import CssBaseline from "material-ui/CssBaseline";
 
 const styles = () => ({
   progress: {
@@ -21,6 +24,9 @@ const styles = () => ({
   },
   tryAgainButton: {
     marginTop: 5
+  },
+  appContainer: {
+    paddingTop: 80
   }
 });
 
@@ -39,11 +45,11 @@ class App extends Component {
 
     try {
       const data = await getExchangesPositions();
-      this.setState({ data: transformExchangeData(data) })
+      const transformedData = transformExchangeData(data);
+      this.setState({ data: transformedData });
 
     } catch (e) {
       this.setState({ showError: true });
-      throw e;
     } finally {
       this.setState({ loading: false });
     }
@@ -55,19 +61,34 @@ class App extends Component {
 
   render() {
     const { classes } = this.props;
-    const { showError, loading } = this.state;
+    const { showError, loading, data } = this.state;
+    const currentData = convertToCurrentData(data);
+    const historicData = convertToHistoric(data);
 
     return (
-      <div>
+      <Fragment>
+        <CssBaseline />
         <Router>
-          <Nav />
+          <div className={classes.appContainer}>
+            <Nav />
+            <Switch>
+              <Route path="/current" render={props => {
+                return <CurrentView data={currentData} />
+              }} />
+              <Route path="/historic" render={props => {
+                return <HistoricView data={historicData} />
+              }} />
+              <Redirect from="/" to="/current" />
+            </Switch>
+
+          </div>
         </Router>
         {loading && <CircularProgress size={50} className={classes.progress} />}
         {showError && <div className={classes.errorState}>
           <Typography variant="display1">Error Loading Results</Typography>
           <Button onClick={this.onTryAgainClick} className={classes.tryAgainButton} color="primary">TRY AGAIN</Button>
         </div>}
-      </div>
+      </Fragment>
     );
   }
 }

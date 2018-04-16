@@ -1,5 +1,5 @@
 // @flow
-import request from 'superagent';
+import request from "superagent";
 
 export const getExchangesPositions = () => {
     return new Promise((resolve, reject) => {
@@ -7,13 +7,13 @@ export const getExchangesPositions = () => {
             request
                 .get("https://my-json-server.typicode.com/kitsunelabs/dummyjson/db")
                 .end((err, res) => {
-                    const showError = Math.random() < 0.3;
+                    const showError = Math.random() < 0;
                     if (err || showError) {
                         // Log error to sentry
-                        return reject(err);
+                        return reject(err || new Error("Random Network Failure"));
                     }
                     resolve(res.body || res.text);
                 });
-        }, Math.random() * 3000)
+        }, Math.random() * 0)
     });
 }
