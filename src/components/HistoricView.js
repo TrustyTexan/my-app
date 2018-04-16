@@ -21,6 +21,11 @@ const styles = (theme) => ({
     },
     selectContainer: {
         marginBottom: 20
+    },
+    [`@media screen and (max-width: ${theme.breakpoints.values.md}px)`]: {
+        container: {
+            padding: "0 20px"
+        },
     }
 });
 
