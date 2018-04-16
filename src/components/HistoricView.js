@@ -9,6 +9,8 @@ import Select from "material-ui/Select";
 import { MenuItem } from "material-ui/Menu";
 import { ExchangesColorMap, ExchangesMap } from "../constants/Exchanges";
 
+import type { HistoricData } from '../utils/dataConverters';
+
 const styles = (theme) => ({
     container: {
         padding: "0 100px"
@@ -22,7 +24,20 @@ const styles = (theme) => ({
     }
 });
 
-class HistoricView extends Component {
+type State = {
+    selectedCurrency: string
+};
+
+type ProvidedProps = {
+    classes: Object,
+    theme: Object
+};
+
+type Props = {
+    data: HistoricData
+};
+
+class HistoricView extends Component<Props & ProvidedProps, State> {
     static displayName = "HistoricView";
 
     state = { selectedCurrency: "" };

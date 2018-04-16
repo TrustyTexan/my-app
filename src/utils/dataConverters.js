@@ -1,58 +1,5 @@
 import { findIndex }  from "lodash/array";
 
-// @flow
-
-// type PositionData = {
-//     current: number,
-//     locked: number,
-//     last_update_time: string
-// };
-// type FeeData = {
-//     fee: number,
-//     last_update_time: string,
-//     type: string 
-// };
-// type ExchangePositionData = {
-//     bat?: PositionData,
-//     bcd?: PositionData,
-//     bcpt?: PositionData,
-//     bnb?: PositionData,
-//     btc?: PositionData,
-//     etc?: PositionData,
-//     etf?: PositionData,
-//     eth?: PositionData,
-//     gas?: PositionData,
-//     nano?: PositionData,
-//     neo?: PositionData,
-//     ont?: PositionData
-// }
-// type ExchangeFeeData = {
-//     bat?: FeeData,
-//     bcd?: FeeData,
-//     bcpt?: FeeData,
-//     bnb?: FeeData,
-//     btc?: FeeData,
-//     etc?: FeeData,
-//     etf?: FeeData,
-//     eth?: FeeData,
-//     gas?: FeeData,
-//     nano?: FeeData,
-//     neo?: FeeData,
-//     ont?: FeeData
-// }
-// type ContriveExchangeDataInput = {
-//     positions: {
-//         binance: ExchangePositionData, 
-//         bittrex: ExchangePositionData,
-//         bridge: ExchangePositionData,
-//         coinbase: ExchangePositionData
-//     },
-//     fees: {
-//         binance: ExchangeFeeData,
-//         coinbase: ExchangeFeeData
-//     }
-// };
-
 const applyVariance = (value: number) => {
     const directionFactor = Math.random() > 0.5 ? -1 : 1;
     const varianceFactor = 1 + (Math.random() * 0.02 * directionFactor)
@@ -151,7 +98,14 @@ export const convertToCurrentData = exchangeData => {
     return result;
 };
 
-export const convertToHistoric = exchangeData => {
+export type HistoricData = {
+    [string]: {
+        fees: { [string]: Array<{ fee: number, type: string, last_udpate_time: number }> },
+        position: { [string]: Array<{ current: number, locked: number, last_udpate_time: number }> }
+    };
+};
+
+export function convertToHistoric(exchangeData): HistoricData {
     const result = {};
     if (!exchangeData) return null;
 

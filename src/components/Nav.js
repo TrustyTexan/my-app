@@ -1,4 +1,3 @@
-// @flow
 import React, { Component } from "react";
 import Tabs, { Tab } from "material-ui/Tabs";
 import AppBar from "material-ui/AppBar";

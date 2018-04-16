@@ -1,4 +1,3 @@
-// @flow
 import React, { Component } from "react";
 import Table, { TableBody, TableCell, TableHead, TableRow } from "material-ui/Table";
 import Paper from "material-ui/Paper";
