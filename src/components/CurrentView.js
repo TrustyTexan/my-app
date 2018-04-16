@@ -10,7 +10,9 @@ const styles = (theme) => ({
         marginBottom: 40
     },
     container: {
-        padding: "0 100px"
+        padding: "0 100px",
+        minWidth: 1008,
+        overflow: "auto"
     },
     tableHeaderRow: {
         height: 35
