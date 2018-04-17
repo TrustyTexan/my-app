@@ -5,7 +5,7 @@ Install:
 
 ### Setup
 1) Clone this repo
-2) 'cd' to `/my-app` directory
+2) `cd` to `/my-app` directory
 3) Run:
 ```
 npm install
@@ -20,5 +20,5 @@ npm run start
 ### Run tests
 Run:
 ```
-npm run tests
+npm run test
 ```
