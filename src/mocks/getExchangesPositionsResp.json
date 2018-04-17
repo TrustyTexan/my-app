@@ -1,0 +1,141 @@
+{
+    "positions": {
+        "bridge": {},
+        "coinbase": {
+            "btc": {
+                "current": 9.8014678,
+                "locked": 1.54716,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "eth": {
+                "current": 119.86252338,
+                "locked": 16,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "usd": {
+                "current": 3620.4478927135,
+                "locked": 3498.2038006,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "ltc": {
+                "current": 20.5,
+                "locked": 12,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            }
+        },
+        "binance": {
+            "btc": {
+                "current": 0.00152456,
+                "locked": 0.00150875,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "eth": {
+                "current": 280.92529179,
+                "locked": 262.48755757,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "neo": {
+                "current": 5.382,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "bnb": {
+                "current": 18.35216772,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "gas": {
+                "current": 11.74824,
+                "locked": 11.04,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "etc": {
+                "current": 3.49,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "zec": {
+                "current": 0.055,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "bat": {
+                "current": 42478.105,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "xmr": {
+                "current": 15,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "bcpt": {
+                "current": 3,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "bcd": {
+                "current": 40.249,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "etf": {
+                "current": 9.68,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "nano": {
+                "current": 306.93,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            },
+            "ont": {
+                "current": 0.0746,
+                "locked": 0,
+                "last_udpate_time": "2018-04-10 14:41:12+00:00"
+            }
+        },
+        "bittrex": {}
+    },
+    "fees": {
+        "coinbase": {
+            "btc": {
+                "type": "Withdrawal",
+                "fee": 0,
+                "last_update_time": "2018-04-10 14:47:39+00:00"
+            },
+            "eth": {
+                "type": "Withdrawal",
+                "fee": 0,
+                "last_update_time": "2018-04-10 14:47:39+00:00"
+            },
+            "bch": {
+                "type": "Withdrawal",
+                "fee": 0,
+                "last_update_time": "2018-04-10 14:47:39+00:00"
+            }
+        },
+        "binance": {
+            "btc": {
+                "type": "Withdrawal",
+                "fee": 0.0005,
+                "last_update_time": "2018-04-10 14:47:56+00:00"
+            },
+            "eth": {
+                "type": "Withdrawal",
+                "fee": 0.01,
+                "last_update_time": "2018-04-10 14:47:56+00:00"
+            },
+            "xrp": {
+                "type": "Withdrawal",
+                "fee": 0.25,
+                "last_update_time": "2018-04-10 14:47:56+00:00"
+            },
+            "xlm": {
+                "type": "Withdrawal",
+                "fee": 0.01,
+                "last_update_time": "2018-04-10 14:47:56+00:00"
+            }
+        }
+    }
+}

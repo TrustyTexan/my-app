@@ -60,8 +60,6 @@ class App extends Component {
   render() {
     const { classes } = this.props;
     const { showError, loading, data } = this.state;
-    const currentData = convertToCurrentData(data);
-    const historicData = convertToHistoric(data);
 
     return (
       <Fragment>
@@ -71,10 +69,10 @@ class App extends Component {
             <Nav />
             <Switch>
               <Route path="/current" render={props => {
-                return <CurrentView data={currentData} />
+                return <CurrentView data={convertToCurrentData(data)} />
               }} />
               <Route path="/historic" render={props => {
-                return <HistoricView data={historicData} />
+                return <HistoricView data={convertToHistoric(data)} />
               }} />
               <Redirect from="/" to="/current" />
             </Switch>

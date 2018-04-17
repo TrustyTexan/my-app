@@ -1,0 +1,167 @@
+{
+    "btc": [
+        {
+            "current": 9.7571186892033,
+            "locked": 1.6200821590842045,
+            "last_update_time": 1523372772000,
+            "exchange": "coinbase",
+            "fee": 0.9741877506523351
+        },
+        {
+            "current": 0.0015578716821943665,
+            "locked": 0.00155772296890083,
+            "last_update_time": 1523372772000,
+            "exchange": "binance",
+            "fee": 0.0004920353767628754
+        }
+    ],
+    "eth": [
+        {
+            "current": 120.45647462202875,
+            "locked": 16.09818900966514,
+            "last_update_time": 1523372772000,
+            "exchange": "coinbase",
+            "fee": 0.9405885232804692
+        },
+        {
+            "current": 277.18271929563696,
+            "locked": 270.4624253496471,
+            "last_update_time": 1523372772000,
+            "exchange": "binance",
+            "fee": 0.010062176238325274
+        }
+    ],
+    "usd": [
+        {
+            "current": 3733.786913448465,
+            "locked": 3439.1231303796076,
+            "last_update_time": 1523372772000,
+            "exchange": "coinbase"
+        }
+    ],
+    "ltc": [
+        {
+            "current": 19.58981062324446,
+            "locked": 12.40305093127471,
+            "last_update_time": 1523372772000,
+            "exchange": "coinbase"
+        }
+    ],
+    "bch": [
+        {
+            "fee": 1.0176820428595785,
+            "exchange": "coinbase",
+            "last_update_time": 1523373159000
+        }
+    ],
+    "neo": [
+        {
+            "current": 5.432954122950957,
+            "locked": 1.0164032501349511,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "bnb": [
+        {
+            "current": 18.797410086087194,
+            "locked": 1.0208909249561895,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "gas": [
+        {
+            "current": 11.624287993804675,
+            "locked": 11.16693451118569,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "etc": [
+        {
+            "current": 3.4623281904566046,
+            "locked": 1.0085272688340328,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "zec": [
+        {
+            "current": 1.0058489285365257,
+            "locked": 1.0034807727823571,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "bat": [
+        {
+            "current": 40126.85460954621,
+            "locked": 1.0181749141257248,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "xmr": [
+        {
+            "current": 15.436514593311877,
+            "locked": 1.0000890400769917,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "bcpt": [
+        {
+            "current": 2.950785576978821,
+            "locked": 1.002025805257134,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "bcd": [
+        {
+            "current": 38.19266939881677,
+            "locked": 1.0113263390777758,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "etf": [
+        {
+            "current": 9.704145193653309,
+            "locked": 0.9795610572745456,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "nano": [
+        {
+            "current": 308.75926648869415,
+            "locked": 1.0192671043941472,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "ont": [
+        {
+            "current": 1.0101314063865572,
+            "locked": 0.9930239266303253,
+            "last_update_time": 1523372772000,
+            "exchange": "binance"
+        }
+    ],
+    "xrp": [
+        {
+            "fee": 0.26032812772204805,
+            "exchange": "binance",
+            "last_update_time": 1523373176000
+        }
+    ],
+    "xlm": [
+        {
+            "fee": 0.009758453757151392,
+            "exchange": "binance",
+            "last_update_time": 1523373176000
+        }
+    ]
+}

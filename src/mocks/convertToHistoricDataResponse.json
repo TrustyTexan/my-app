@@ -1,0 +1,899 @@
+{
+    "btc": {
+        "fees": {
+            "coinbase": [
+                {
+                    "fee": 0,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371659000
+                },
+                {
+                    "fee": 1.0137797460553881,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371959000
+                },
+                {
+                    "fee": 1.001399726086684,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372259000
+                },
+                {
+                    "fee": 1.0121720958229177,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372559000
+                },
+                {
+                    "fee": 1.0183350151163324,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372859000
+                },
+                {
+                    "fee": 1.000549972147149,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523373159000
+                }
+            ],
+            "binance": [
+                {
+                    "fee": 0.0005,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371676000
+                },
+                {
+                    "fee": 0.0004967811816704116,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371976000
+                },
+                {
+                    "fee": 0.0005054161054345621,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372276000
+                },
+                {
+                    "fee": 0.000511743627060323,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372576000
+                },
+                {
+                    "fee": 0.0005086356056391033,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372876000
+                },
+                {
+                    "fee": 0.0005137854212940839,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523373176000
+                }
+            ]
+        },
+        "positions": {
+            "coinbase": [
+                {
+                    "current": 9.8014678,
+                    "locked": 1.54716,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 9.742695716868065,
+                    "locked": 1.5494971637697175,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 9.621377352864313,
+                    "locked": 1.536528935734995,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 9.655704511217898,
+                    "locked": 1.5138545334407663,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 9.52688522978031,
+                    "locked": 1.5320624647825374,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 9.401182663261693,
+                    "locked": 1.5403785909938532,
+                    "last_update_time": 1523372772000
+                }
+            ],
+            "binance": [
+                {
+                    "current": 0.00152456,
+                    "locked": 0.00150875,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 0.0015258700651179118,
+                    "locked": 0.0014786604107195592,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 0.001530953165982375,
+                    "locked": 0.0014520216117565746,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 0.0015214685010773608,
+                    "locked": 0.0014604256625446496,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 0.0015420270540306875,
+                    "locked": 0.0014854700339362076,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 0.001553998018084852,
+                    "locked": 0.0014627699369619,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "eth": {
+        "fees": {
+            "coinbase": [
+                {
+                    "fee": 0,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371659000
+                },
+                {
+                    "fee": 0.9987478448033094,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371959000
+                },
+                {
+                    "fee": 1.0025985819119096,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372259000
+                },
+                {
+                    "fee": 0.9906343031197077,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372559000
+                },
+                {
+                    "fee": 1.0001021076957723,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372859000
+                },
+                {
+                    "fee": 1.0064184288409672,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523373159000
+                }
+            ],
+            "binance": [
+                {
+                    "fee": 0.01,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371676000
+                },
+                {
+                    "fee": 0.01000190542092787,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371976000
+                },
+                {
+                    "fee": 0.009919920119945079,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372276000
+                },
+                {
+                    "fee": 0.009758243325758706,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372576000
+                },
+                {
+                    "fee": 0.009706499405997554,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372876000
+                },
+                {
+                    "fee": 0.009793990061907525,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523373176000
+                }
+            ]
+        },
+        "positions": {
+            "coinbase": [
+                {
+                    "current": 119.86252338,
+                    "locked": 16,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 121.27569433066384,
+                    "locked": 16.11439398007156,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 122.56131767877567,
+                    "locked": 16.395117493708568,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 121.63855782726027,
+                    "locked": 16.354547962440154,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 122.37615231456084,
+                    "locked": 16.232013931161205,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 120.7764649003905,
+                    "locked": 15.972448999738404,
+                    "last_update_time": 1523372772000
+                }
+            ],
+            "binance": [
+                {
+                    "current": 280.92529179,
+                    "locked": 262.48755757,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 286.26819924262855,
+                    "locked": 262.3278529449448,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 281.8088734525525,
+                    "locked": 264.02053421776634,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 285.3933326936903,
+                    "locked": 261.3118849515653,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 281.9709277716517,
+                    "locked": 260.46084305317254,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 277.4945668327674,
+                    "locked": 255.32337431816762,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "usd": {
+        "fees": {},
+        "positions": {
+            "coinbase": [
+                {
+                    "current": 3620.4478927135,
+                    "locked": 3498.2038006,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 3611.0246362014946,
+                    "locked": 3457.9067395064008,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 3635.5605565210767,
+                    "locked": 3478.6603211273505,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 3700.967715451049,
+                    "locked": 3486.522930722767,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 3681.496692695259,
+                    "locked": 3430.2923472130583,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 3736.4695430189026,
+                    "locked": 3459.498770589706,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "ltc": {
+        "fees": {},
+        "positions": {
+            "coinbase": [
+                {
+                    "current": 20.5,
+                    "locked": 12,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 20.79241986994499,
+                    "locked": 11.8461528715997,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 20.955793369302896,
+                    "locked": 11.75035084082852,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 21.1158801073701,
+                    "locked": 11.838189624782181,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 20.799448187164444,
+                    "locked": 11.765695699932788,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 20.753311947311893,
+                    "locked": 11.56539706729251,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "bch": {
+        "fees": {
+            "coinbase": [
+                {
+                    "fee": 0,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371659000
+                },
+                {
+                    "fee": 0.9810638723945734,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371959000
+                },
+                {
+                    "fee": 0.9661496289683216,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372259000
+                },
+                {
+                    "fee": 0.9797127325185003,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372559000
+                },
+                {
+                    "fee": 0.9764179440738618,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372859000
+                },
+                {
+                    "fee": 0.9575786905949513,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523373159000
+                }
+            ]
+        },
+        "positions": {}
+    },
+    "neo": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 5.382,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 5.367260613213062,
+                    "locked": 1.0074085761048983,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 5.349789940122231,
+                    "locked": 1.0255715882875018,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 5.434407046158039,
+                    "locked": 1.0264295451715622,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 5.3865873034376355,
+                    "locked": 1.0305079700107902,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 5.3288897193075,
+                    "locked": 1.0506618165902963,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "bnb": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 18.35216772,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 18.44245273711509,
+                    "locked": 0.9958714991201406,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 18.282073970403964,
+                    "locked": 1.0080645727150717,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 18.61177879573021,
+                    "locked": 1.000817028003312,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 18.328045343654725,
+                    "locked": 1.0172634551132549,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 18.269647611287436,
+                    "locked": 1.0318344174780425,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "gas": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 11.74824,
+                    "locked": 11.04,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 11.821641564147969,
+                    "locked": 11.008017430068394,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 11.812187846069829,
+                    "locked": 11.062180636611018,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 11.85336260790641,
+                    "locked": 10.888426919332415,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 12.052481999167064,
+                    "locked": 10.816046756232614,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 11.916662623634398,
+                    "locked": 10.840871871619811,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "etc": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 3.49,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 3.475419841647431,
+                    "locked": 0.9950831988764336,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 3.4157272339715656,
+                    "locked": 1.0149733999842772,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 3.4540475154799606,
+                    "locked": 1.0352158943764989,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 3.448726253606037,
+                    "locked": 1.0152736921425944,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 3.4313742815910557,
+                    "locked": 1.0071906410795388,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "zec": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 0.055,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 0,
+                    "locked": 1.0046654130753334,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 1.0122209590825726,
+                    "locked": 0.9936909158205166,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 1.0303887888596877,
+                    "locked": 0.9966534746460466,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 1.0116230776473727,
+                    "locked": 1.0000461704234713,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 1.0306372303414157,
+                    "locked": 1.0161726089774057,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "bat": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 42478.105,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 42077.70034953111,
+                    "locked": 0.9995696441942649,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 41353.08648589723,
+                    "locked": 0.9989669534358139,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 40763.253602726945,
+                    "locked": 0.9985967265790497,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 40372.276619874705,
+                    "locked": 1.0016857554180874,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 39706.66884141819,
+                    "locked": 0.9979158720817567,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "xmr": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 15,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 15.271355777848068,
+                    "locked": 0.9966564821107112,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 15.016502392191681,
+                    "locked": 0.9809861534276145,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 15.273747641119423,
+                    "locked": 0.9699483610284303,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 15.499839792427373,
+                    "locked": 0.9714841187643338,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 15.397066920476972,
+                    "locked": 0.9659002973169438,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "bcpt": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 3,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 2.9824148076239947,
+                    "locked": 1.0122726641759303,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 2.94451723890872,
+                    "locked": 1.0246813681514217,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 2.9542287015959383,
+                    "locked": 1.0157789100675687,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 2.9167368521715056,
+                    "locked": 1.017244199820608,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 2.8699429367384566,
+                    "locked": 1.0303145100658013,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "bcd": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 40.249,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 39.556121720585274,
+                    "locked": 0.9932944383178605,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 39.43831946081487,
+                    "locked": 0.977890426358226,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 39.22737281418046,
+                    "locked": 0.9861673833162925,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 39.66879672507023,
+                    "locked": 0.9934074472512336,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 39.63625161259333,
+                    "locked": 0.9860650282418694,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "etf": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 9.68,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 9.840527377867334,
+                    "locked": 1.007912336329906,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 9.776408322686182,
+                    "locked": 0.9897207457346239,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 9.59703388520071,
+                    "locked": 0.9862015918177223,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 9.459946495097746,
+                    "locked": 0.9893991281649112,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 9.457541698687844,
+                    "locked": 0.9739158016620418,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "nano": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 306.93,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 306.571289066028,
+                    "locked": 1.014546166737303,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 306.0530538855291,
+                    "locked": 1.005298400348694,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 309.094397657778,
+                    "locked": 1.0244724197560224,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 303.7031157928568,
+                    "locked": 1.0355767989303652,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 306.4497641799156,
+                    "locked": 1.016686693140723,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "ont": {
+        "fees": {},
+        "positions": {
+            "binance": [
+                {
+                    "current": 0.0746,
+                    "locked": 0,
+                    "last_update_time": 1523371272000
+                },
+                {
+                    "current": 0,
+                    "locked": 1.008044791479357,
+                    "last_update_time": 1523371572000
+                },
+                {
+                    "current": 1.0282056873089442,
+                    "locked": 1.020629466700567,
+                    "last_update_time": 1523371872000
+                },
+                {
+                    "current": 1.043916936452013,
+                    "locked": 1.0127269095228957,
+                    "last_update_time": 1523372172000
+                },
+                {
+                    "current": 1.0609376447010883,
+                    "locked": 0.9966999872304229,
+                    "last_update_time": 1523372472000
+                },
+                {
+                    "current": 1.042575003572824,
+                    "locked": 1.0063606582185258,
+                    "last_update_time": 1523372772000
+                }
+            ]
+        }
+    },
+    "xrp": {
+        "fees": {
+            "binance": [
+                {
+                    "fee": 0.25,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371676000
+                },
+                {
+                    "fee": 0.24698616214705915,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371976000
+                },
+                {
+                    "fee": 0.25071032643420044,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372276000
+                },
+                {
+                    "fee": 0.2489226413195413,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372576000
+                },
+                {
+                    "fee": 0.2493710406592778,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372876000
+                },
+                {
+                    "fee": 0.25408704957679673,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523373176000
+                }
+            ]
+        },
+        "positions": {}
+    },
+    "xlm": {
+        "fees": {
+            "binance": [
+                {
+                    "fee": 0.01,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371676000
+                },
+                {
+                    "fee": 0.010176102198190652,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523371976000
+                },
+                {
+                    "fee": 0.010176121585665424,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372276000
+                },
+                {
+                    "fee": 0.010155915072899155,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372576000
+                },
+                {
+                    "fee": 0.010126292088089362,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523372876000
+                },
+                {
+                    "fee": 0.010099368501935988,
+                    "type": "Withdrawal",
+                    "last_update_time": 1523373176000
+                }
+            ]
+        },
+        "positions": {}
+    }
+}

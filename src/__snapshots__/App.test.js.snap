@@ -1,0 +1,2801 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Deep CurrentView testing should render loaded data 1`] = `
+Array [
+  "",
+  <div
+    className="App-appContainer-4"
+>
+    <header
+        className="MuiPaper-root-13 MuiPaper-elevation4-19 MuiAppBar-root-5 MuiAppBar-positionFixed-6 MuiAppBar-colorPrimary-11 mui-fixed"
+    >
+        <div
+            className="MuiTabs-root-40"
+        >
+            <div
+                className="MuiTabs-flexContainer-41"
+            >
+                <div
+                    className="MuiTabs-scroller-42 MuiTabs-fixed-43"
+                    onScroll={[Function]}
+                    role="tablist"
+                    style={
+                        Object {
+                            "marginBottom": 0,
+                          }
+                    }
+                >
+                    <div
+                        className="MuiTabs-flexContainer-41"
+                    >
+                        <button
+                            aria-selected={true}
+                            className="MuiButtonBase-root-65 MuiTab-root-49 MuiTab-textColorInherit-51 MuiTab-textColorInheritSelected-58"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role="tab"
+                            tabIndex="0"
+                            type="button"
+                        >
+                            <span
+                                className="MuiTab-wrapper-61"
+                            >
+                                <span
+                                    className="MuiTab-labelContainer-62"
+                                >
+                                    <span
+                                        className="MuiTab-label-63"
+                                    >
+                                        Current
+                                    </span>
+                                </span>
+                            </span>
+                            <span
+                                className="MuiTouchRipple-root-71"
+                            />
+                        </button>
+                        <button
+                            aria-selected={false}
+                            className="MuiButtonBase-root-65 MuiTab-root-49 MuiTab-textColorInherit-51"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role="tab"
+                            tabIndex="0"
+                            type="button"
+                        >
+                            <span
+                                className="MuiTab-wrapper-61"
+                            >
+                                <span
+                                    className="MuiTab-labelContainer-62"
+                                >
+                                    <span
+                                        className="MuiTab-label-63"
+                                    >
+                                        Historic
+                                    </span>
+                                </span>
+                            </span>
+                            <span
+                                className="MuiTouchRipple-root-71"
+                            />
+                        </button>
+                    </div>
+                    <span
+                        className="MuiTabIndicator-root-68 MuiTabIndicator-colorSecondary-70 MuiTabs-indicator-48"
+                        style={
+                            Object {
+                                "left": 0,
+                                "width": 0,
+                              }
+                        }
+                    />
+                </div>
+            </div>
+        </div>
+    </header>
+    <div
+        className="CurrentView-container-79"
+    >
+        <div
+            key="btc"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                btc
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Coinbase
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                9.7571
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.6201
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                8.1370
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.9742
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.0016
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.0016
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.0000
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.0005
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="eth"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                eth
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Coinbase
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                120.4565
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                16.0982
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                104.3583
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.9406
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                277.1827
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                270.4624
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                6.7203
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.0101
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="usd"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                usd
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Coinbase
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                3733.7869
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                3439.1231
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                294.6638
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="ltc"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                ltc
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Coinbase
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                19.5898
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                12.4031
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                7.1868
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="bch"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                bch
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Coinbase
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0177
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:12:39
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="neo"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                neo
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                5.4330
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0164
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                4.4166
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="bnb"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                bnb
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                18.7974
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0209
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                17.7765
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="gas"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                gas
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                11.6243
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                11.1669
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.4574
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="etc"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                etc
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                3.4623
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0085
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                2.4538
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="zec"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                zec
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0058
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0035
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.0024
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="bat"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                bat
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                40126.8546
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0182
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                40125.8364
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="xmr"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                xmr
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                15.4365
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0001
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                14.4364
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="bcpt"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                bcpt
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                2.9508
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0020
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.9488
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="bcd"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                bcd
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                38.1927
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0113
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                37.1813
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="etf"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                etf
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                9.7041
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.9796
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                8.7246
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="nano"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                nano
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                308.7593
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0193
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                307.7400
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="ont"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                ont
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                1.0101
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.9930
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.0171
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:06:12
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="xrp"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                xrp
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.2603
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:12:56
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div
+            key="xlm"
+        >
+            <h1
+                className="MuiTypography-root-81 MuiTypography-headline-86 MuiTypography-colorTextSecondary-103 MuiTypography-gutterBottom-98"
+            >
+                xlm
+            </h1>
+            <div
+                className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 CurrentView-tableContainer-78"
+            >
+                <table
+                    className="MuiTable-root-105"
+                >
+                    <thead
+                        className="MuiTableHead-root-106"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107 MuiTableRow-head-108 CurrentView-tableHeaderRow-80"
+                        >
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                                width="100"
+                            >
+                                Exchange
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Current
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Locked
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Available
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112 MuiTableCell-numeric-118"
+                                scope="col"
+                                width="150"
+                            >
+                                Fee
+                            </th>
+                            <th
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-head-115 WithStyles-TableCell--head-112"
+                                scope="col"
+                            >
+                                Last Updated
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        className="MuiTableBody-root-122"
+                    >
+                        <tr
+                            className="MuiTableRow-root-107"
+                        >
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                Binance
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                -
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116 MuiTableCell-numeric-118"
+                            >
+                                0.0098
+                            </td>
+                            <td
+                                aria-sort={null}
+                                className="MuiTableCell-root-114 MuiTableCell-body-116"
+                            >
+                                2018-4-10 10:12:56
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>,
+  <div
+    className="MuiCircularProgress-root-123 MuiCircularProgress-colorPrimary-124 App-progress-1"
+    role="progressbar"
+    style={
+        Object {
+            "height": 50,
+            "width": 50,
+          }
+    }
+>
+    <svg
+        className="MuiCircularProgress-svg-126 MuiCircularProgress-svgIndeterminate-127"
+        viewBox="0 0 50 50"
+    >
+        <circle
+            className="MuiCircularProgress-circle-128 MuiCircularProgress-circleIndeterminate-129"
+            cx={25}
+            cy={25}
+            fill="none"
+            r={20}
+            strokeWidth={3.6}
+            style={Object {}}
+        />
+    </svg>
+</div>,
+]
+`;
+
+exports[`Deep HistoricView testing should render with loaded data 1`] = `
+Array [
+  "",
+  <div
+    className="App-appContainer-4"
+>
+    <header
+        className="MuiPaper-root-13 MuiPaper-elevation4-19 MuiAppBar-root-5 MuiAppBar-positionFixed-6 MuiAppBar-colorPrimary-11 mui-fixed"
+    >
+        <div
+            className="MuiTabs-root-40"
+        >
+            <div
+                className="MuiTabs-flexContainer-41"
+            >
+                <div
+                    className="MuiTabs-scroller-42 MuiTabs-fixed-43"
+                    onScroll={[Function]}
+                    role="tablist"
+                    style={
+                        Object {
+                            "marginBottom": 0,
+                          }
+                    }
+                >
+                    <div
+                        className="MuiTabs-flexContainer-41"
+                    >
+                        <button
+                            aria-selected={false}
+                            className="MuiButtonBase-root-65 MuiTab-root-49 MuiTab-textColorInherit-51"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role="tab"
+                            tabIndex="0"
+                            type="button"
+                        >
+                            <span
+                                className="MuiTab-wrapper-61"
+                            >
+                                <span
+                                    className="MuiTab-labelContainer-62"
+                                >
+                                    <span
+                                        className="MuiTab-label-63"
+                                    >
+                                        Current
+                                    </span>
+                                </span>
+                            </span>
+                            <span
+                                className="MuiTouchRipple-root-71"
+                            />
+                        </button>
+                        <button
+                            aria-selected={true}
+                            className="MuiButtonBase-root-65 MuiTab-root-49 MuiTab-textColorInherit-51 MuiTab-textColorInheritSelected-58"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role="tab"
+                            tabIndex="0"
+                            type="button"
+                        >
+                            <span
+                                className="MuiTab-wrapper-61"
+                            >
+                                <span
+                                    className="MuiTab-labelContainer-62"
+                                >
+                                    <span
+                                        className="MuiTab-label-63"
+                                    >
+                                        Historic
+                                    </span>
+                                </span>
+                            </span>
+                            <span
+                                className="MuiTouchRipple-root-71"
+                            />
+                        </button>
+                    </div>
+                    <span
+                        className="MuiTabIndicator-root-68 MuiTabIndicator-colorSecondary-70 MuiTabs-indicator-48"
+                        style={
+                            Object {
+                                "left": 0,
+                                "width": 0,
+                              }
+                        }
+                    />
+                </div>
+            </div>
+        </div>
+    </header>
+    <div
+        className="HistoricView-container-152"
+    >
+        <div
+            className="HistoricView-selectContainer-154"
+        >
+            <div
+                className="MuiInput-root-160 MuiInput-underline-164"
+            >
+                <div
+                    className="MuiSelect-root-155"
+                >
+                    <div
+                        aria-haspopup="true"
+                        aria-owns={null}
+                        aria-pressed="false"
+                        className="MuiSelect-select-156 MuiSelect-selectMenu-157 MuiInput-input-168"
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex={0}
+                    >
+                        btc
+                    </div>
+                    <input
+                        type="hidden"
+                        value="btc"
+                    />
+                    <svg
+                        aria-hidden="true"
+                        className="MuiSvgIcon-root-174 MuiSelect-icon-159"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            d="M7 10l5 5 5-5z"
+                        />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div
+            className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 HistoricView-chartContainer-153"
+        >
+            <h3
+                className="MuiTypography-root-81 MuiTypography-subheading-88 MuiTypography-gutterBottom-98 MuiTypography-alignCenter-94"
+            >
+                Positions
+            </h3>
+            <div
+                className="recharts-responsive-container"
+                style={
+                    Object {
+                        "height": 300,
+                        "maxHeight": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "width": "100%",
+                      }
+                }
+            >
+                <div
+                    style={
+                        Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "overflow": "hidden",
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "visibility": "hidden",
+                            "zIndex": -1,
+                          }
+                    }
+                >
+                    <div
+                        onScroll={[Function]}
+                        style={
+                            Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "overflow": "hidden",
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                                "visibility": "hidden",
+                                "zIndex": -1,
+                              }
+                        }
+                    >
+                        <div
+                            style={
+                                Object {
+                                    "height": 10,
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "top": 0,
+                                    "width": 10,
+                                  }
+                            }
+                        />
+                    </div>
+                    <div
+                        onScroll={[Function]}
+                        style={
+                            Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "overflow": "hidden",
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                                "visibility": "hidden",
+                                "zIndex": -1,
+                              }
+                        }
+                    >
+                        <div
+                            style={
+                                Object {
+                                    "height": "200%",
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "top": 0,
+                                    "width": "200%",
+                                  }
+                            }
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            className="MuiPaper-root-13 MuiPaper-elevation2-17 MuiPaper-rounded-14 HistoricView-chartContainer-153"
+        >
+            <h3
+                className="MuiTypography-root-81 MuiTypography-subheading-88 MuiTypography-gutterBottom-98 MuiTypography-alignCenter-94"
+            >
+                Fees
+            </h3>
+            <div
+                className="recharts-responsive-container"
+                style={
+                    Object {
+                        "height": 300,
+                        "maxHeight": undefined,
+                        "minHeight": undefined,
+                        "minWidth": undefined,
+                        "width": "100%",
+                      }
+                }
+            >
+                <div
+                    style={
+                        Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "overflow": "hidden",
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "visibility": "hidden",
+                            "zIndex": -1,
+                          }
+                    }
+                >
+                    <div
+                        onScroll={[Function]}
+                        style={
+                            Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "overflow": "hidden",
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                                "visibility": "hidden",
+                                "zIndex": -1,
+                              }
+                        }
+                    >
+                        <div
+                            style={
+                                Object {
+                                    "height": 10,
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "top": 0,
+                                    "width": 10,
+                                  }
+                            }
+                        />
+                    </div>
+                    <div
+                        onScroll={[Function]}
+                        style={
+                            Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "overflow": "hidden",
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                                "visibility": "hidden",
+                                "zIndex": -1,
+                              }
+                        }
+                    >
+                        <div
+                            style={
+                                Object {
+                                    "height": "200%",
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "top": 0,
+                                    "width": "200%",
+                                  }
+                            }
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>,
+  <div
+    className="MuiCircularProgress-root-145 MuiCircularProgress-colorPrimary-146 App-progress-1"
+    role="progressbar"
+    style={
+        Object {
+            "height": 50,
+            "width": 50,
+          }
+    }
+>
+    <svg
+        className="MuiCircularProgress-svg-148 MuiCircularProgress-svgIndeterminate-149"
+        viewBox="0 0 50 50"
+    >
+        <circle
+            className="MuiCircularProgress-circle-150 MuiCircularProgress-circleIndeterminate-151"
+            cx={25}
+            cy={25}
+            fill="none"
+            r={20}
+            strokeWidth={3.6}
+            style={Object {}}
+        />
+    </svg>
+</div>,
+]
+`;
