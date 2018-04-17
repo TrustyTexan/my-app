@@ -9,7 +9,7 @@ import Select from "material-ui/Select";
 import { MenuItem } from "material-ui/Menu";
 import { ExchangesColorMap, ExchangesMap } from "../constants/Exchanges";
 
-import type { HistoricData } from '../utils/dataConverters';
+import type { HistoricData } from "../utils/dataConverters";
 
 const styles = (theme) => ({
     container: {
