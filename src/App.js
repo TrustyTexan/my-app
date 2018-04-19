@@ -1,15 +1,14 @@
 import React, { Component, Fragment } from "react";
-import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Nav from "./components/Nav";
 import { CircularProgress } from "material-ui/Progress";
 import { withStyles } from "material-ui/styles";
 import { getExchangesPositions } from "./api/exchange";
 import Button from "material-ui/Button";
 import Typography from "material-ui/Typography";
-import { transformExchangeData, convertToCurrentData, convertToHistoric } from "./utils/dataConverters";
-import CurrentView from "./components/CurrentView";
-import HistoricView from "./components/HistoricView";
+import { transformExchangeData } from "./utils/dataConverters";
 import CssBaseline from "material-ui/CssBaseline";
+import Routes from './routes';
 
 const styles = () => ({
   progress: {
@@ -67,16 +66,7 @@ class App extends Component {
         <Router>
           <div className={classes.appContainer}>
             <Nav />
-            <Switch>
-              <Route path="/current" render={props => {
-                return <CurrentView data={convertToCurrentData(data)} />
-              }} />
-              <Route path="/historic" render={props => {
-                return <HistoricView data={convertToHistoric(data)} />
-              }} />
-              <Redirect from="/" to="/current" />
-            </Switch>
-
+            <Routes data={data} />
           </div>
         </Router>
         {loading && <CircularProgress size={50} className={classes.progress} />}
